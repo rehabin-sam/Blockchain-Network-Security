@@ -1,0 +1,15 @@
+{
+  "name": "blockchain-network-security",
+  "version": "1.0.0",
+  "description": "Blockchain Based Network Security System",
+  "scripts": {
+    "compile": "truffle compile",
+    "deploy": "truffle migrate && cp build/contracts/*.json client/src/contracts/"
+  },
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^2.1.0"
+  },
+  "devDependencies": {
+    "truffle": "^5.11.5"
+  }
+}
